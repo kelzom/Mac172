@@ -169,6 +169,7 @@ body {
   .price {
     color: grey;
     font-size: 22px;
+    font-family: 'Shrikhand', cursive;
   }
   
   .card button {
@@ -181,8 +182,56 @@ body {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+    font-family: 'Shrikhand', cursive;
   }
   
   .card button:hover {
     opacity: 0.7;
+  }
+
+  .header-logo {
+    float: left;
+  }
+  
+  .header-nav {
+    float: right;
+  }
+  
+  .header-nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  .shopping-cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 60px;
+    padding: 20px;
+    
+  }
+  
+  .shopping-cart-head {
+    background: steelblue;
+    color: white;
+    padding: 5px;
+  }
+  
+  .shopping-cart,
+  .shopping-cart-head {
+    border-radius: 5px;
+  }
+  
+  .empty-cart-btn,
+  .cart-checkout {
+    display: none;
+    
+  }
+  
+  .empty-cart-btn {
+    margin-bottom: 5px;
+  }
+  
+  .cart-checkout {
+    background: limegreen;
   }

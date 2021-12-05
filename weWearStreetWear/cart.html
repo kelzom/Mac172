@@ -1,47 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
         <head>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <link rel="shortcut icon" href="images/favicon.ico" />
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-            <title>WWSW</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-    #logo, #newArrivals {
-  background-color: white;
-  font-family: 'Shrikhand', cursive;;
-  font-size: 40px;
-  overflow: hidden;
+    body{
+ margin: 0;
+ padding: 0;
+ background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+
 }
-
-.topnav {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            .Cart-Container{
+                width: 70%;
+                height: 85%;
+                background-color: #ffffff;
+                border-radius: 20px;
+                box-shadow: 0px 25px 40px #1687d933;
+               }
+               
+        .Header{
+ margin: auto;
+ width: 90%;
+ height: 15%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
 }
-</style>
+.Heading{
+ font-size: 20px;
+ font-family: ‘Open Sans’;
+ font-weight: 700;
+ color: #2F3841;
+}
+.Action{
+ font-size: 14px;
+ font-family: ‘Open Sans’;
+ font-weight: 600;
+ color: #E44C4C;
+ cursor: pointer;
+ border-bottom: 1px solid #E44C4C;
+}
+            </style>
+            </head>
 
-
-
-        </head>
-<header>
-    <div class="topnav">
-        <span id = "logo"> <a href="home.html">weWearStreetwear </a>&emsp;</span> 
-        <a class="active" href="directory.html">Women's</a>
-        <a href="directory.html">Men's</a>
-        <a href="directory.html">Gifts</a>
-        <a href="directory.html">Home</a>
-        <a href="directory.html">Lifestyle</a>
-        <a href="directory.html">Sale</a> &emsp;
-        <input type="text" placeholder="Search.."><button type="submit"><i class="fa fa-search"></i></button>
-       <hr>
-</header>
 <body>
-    <h3>Shopping Bag</h3>>
+    <div class=”Cart-Container”></div>
+    <div class=”Header”>
+        <h3 class=”Heading”>Shopping Cart</h3>
+        <h5 class=”Action”>Remove all</h5>
+        </div>
 
-
+        
 <!-- table with list of items, with size and color-->
 <!-- item, item price, quantity, total price-->
 <!--Order Summary: Subtotal Shipping Estimated Tax Total-->
